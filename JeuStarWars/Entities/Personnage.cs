@@ -6,6 +6,11 @@ namespace Entities
 {
     public class Personnage
     {
+       
     }
-    
+     public enum Cote
+    {
+        Lumineux,
+        Obscur
+    }
 }

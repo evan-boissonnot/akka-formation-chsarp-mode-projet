@@ -10,8 +10,9 @@ namespace Services
         IEnumerable<Personnage> GetAllPersonnages();
         IEnumerable<Personnage> GetPersonnagesByCote(Cote cote);
         Personnage ChoisirPersonnages();
-        bool DeplacerPersonnage(Personnage personnage,Position nouvellePos);
-        bool SetPersonnagePos(Position pos, Personnage personnage);
+        bool DeplacerPersonnage(Personnage personnage, Position nouvellePos);
+        bool SetPersonnagePosition(Position pos, Personnage personnage);
+        
 
     }
 }
